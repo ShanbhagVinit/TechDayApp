@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AC50E0B1D6B18780059020F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC50E0A1D6B18780059020F /* AppDelegate.swift */; };
+		3AC50E101D6B18780059020F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC50E0E1D6B18780059020F /* Main.storyboard */; };
+		3AC50E121D6B18780059020F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC50E111D6B18780059020F /* Assets.xcassets */; };
+		3AC50E151D6B18780059020F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC50E131D6B18780059020F /* LaunchScreen.storyboard */; };
+		3AC50E201D6B18790059020F /* TecdDayAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC50E1F1D6B18790059020F /* TecdDayAppTests.swift */; };
+		3AC50E2B1D6B18790059020F /* TecdDayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC50E2A1D6B18790059020F /* TecdDayAppUITests.swift */; };
+		3AC50E3F1D6B21A90059020F /* StallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC50E3E1D6B21A90059020F /* StallsViewController.swift */; };
+		3AC50E411D6B21C50059020F /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC50E401D6B21C50059020F /* EventsViewController.swift */; };
+		3AC50E431D6B21D60059020F /* HackathonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC50E421D6B21D60059020F /* HackathonViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AC50E1C1D6B18790059020F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC50DFF1D6B18780059020F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AC50E061D6B18780059020F;
+			remoteInfo = TecdDayApp;
+		};
+		3AC50E271D6B18790059020F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC50DFF1D6B18780059020F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AC50E061D6B18780059020F;
+			remoteInfo = TecdDayApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AC50E071D6B18780059020F /* TecdDayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TecdDayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC50E0A1D6B18780059020F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AC50E0F1D6B18780059020F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AC50E111D6B18780059020F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AC50E141D6B18780059020F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AC50E161D6B18780059020F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC50E1B1D6B18790059020F /* TecdDayAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TecdDayAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC50E1F1D6B18790059020F /* TecdDayAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TecdDayAppTests.swift; sourceTree = "<group>"; };
+		3AC50E211D6B18790059020F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC50E261D6B18790059020F /* TecdDayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TecdDayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC50E2A1D6B18790059020F /* TecdDayAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TecdDayAppUITests.swift; sourceTree = "<group>"; };
+		3AC50E2C1D6B18790059020F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC50E3E1D6B21A90059020F /* StallsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StallsViewController.swift; sourceTree = "<group>"; };
+		3AC50E401D6B21C50059020F /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		3AC50E421D6B21D60059020F /* HackathonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackathonViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AC50E041D6B18780059020F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC50E181D6B18790059020F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC50E231D6B18790059020F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AC50DFE1D6B18780059020F = {
+			isa = PBXGroup;
+			children = (
+				3AC50E091D6B18780059020F /* TecdDayApp */,
+				3AC50E1E1D6B18790059020F /* TecdDayAppTests */,
+				3AC50E291D6B18790059020F /* TecdDayAppUITests */,
+				3AC50E081D6B18780059020F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AC50E081D6B18780059020F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AC50E071D6B18780059020F /* TecdDayApp.app */,
+				3AC50E1B1D6B18790059020F /* TecdDayAppTests.xctest */,
+				3AC50E261D6B18790059020F /* TecdDayAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AC50E091D6B18780059020F /* TecdDayApp */ = {
+			isa = PBXGroup;
+			children = (
+				3AC50E0A1D6B18780059020F /* AppDelegate.swift */,
+				3AC50E0E1D6B18780059020F /* Main.storyboard */,
+				3AC50E111D6B18780059020F /* Assets.xcassets */,
+				3AC50E131D6B18780059020F /* LaunchScreen.storyboard */,
+				3AC50E161D6B18780059020F /* Info.plist */,
+				3AC50E3E1D6B21A90059020F /* StallsViewController.swift */,
+				3AC50E401D6B21C50059020F /* EventsViewController.swift */,
+				3AC50E421D6B21D60059020F /* HackathonViewController.swift */,
+			);
+			path = TecdDayApp;
+			sourceTree = "<group>";
+		};
+		3AC50E1E1D6B18790059020F /* TecdDayAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AC50E1F1D6B18790059020F /* TecdDayAppTests.swift */,
+				3AC50E211D6B18790059020F /* Info.plist */,
+			);
+			path = TecdDayAppTests;
+			sourceTree = "<group>";
+		};
+		3AC50E291D6B18790059020F /* TecdDayAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AC50E2A1D6B18790059020F /* TecdDayAppUITests.swift */,
+				3AC50E2C1D6B18790059020F /* Info.plist */,
+			);
+			path = TecdDayAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AC50E061D6B18780059020F /* TecdDayApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC50E2F1D6B18790059020F /* Build configuration list for PBXNativeTarget "TecdDayApp" */;
+			buildPhases = (
+				3AC50E031D6B18780059020F /* Sources */,
+				3AC50E041D6B18780059020F /* Frameworks */,
+				3AC50E051D6B18780059020F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TecdDayApp;
+			productName = TecdDayApp;
+			productReference = 3AC50E071D6B18780059020F /* TecdDayApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AC50E1A1D6B18790059020F /* TecdDayAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC50E321D6B18790059020F /* Build configuration list for PBXNativeTarget "TecdDayAppTests" */;
+			buildPhases = (
+				3AC50E171D6B18790059020F /* Sources */,
+				3AC50E181D6B18790059020F /* Frameworks */,
+				3AC50E191D6B18790059020F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AC50E1D1D6B18790059020F /* PBXTargetDependency */,
+			);
+			name = TecdDayAppTests;
+			productName = TecdDayAppTests;
+			productReference = 3AC50E1B1D6B18790059020F /* TecdDayAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AC50E251D6B18790059020F /* TecdDayAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC50E351D6B18790059020F /* Build configuration list for PBXNativeTarget "TecdDayAppUITests" */;
+			buildPhases = (
+				3AC50E221D6B18790059020F /* Sources */,
+				3AC50E231D6B18790059020F /* Frameworks */,
+				3AC50E241D6B18790059020F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AC50E281D6B18790059020F /* PBXTargetDependency */,
+			);
+			name = TecdDayAppUITests;
+			productName = TecdDayAppUITests;
+			productReference = 3AC50E261D6B18790059020F /* TecdDayAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AC50DFF1D6B18780059020F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tecso;
+				TargetAttributes = {
+					3AC50E061D6B18780059020F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3AC50E1A1D6B18790059020F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3AC50E061D6B18780059020F;
+					};
+					3AC50E251D6B18790059020F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3AC50E061D6B18780059020F;
+					};
+				};
+			};
+			buildConfigurationList = 3AC50E021D6B18780059020F /* Build configuration list for PBXProject "TecdDayApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AC50DFE1D6B18780059020F;
+			productRefGroup = 3AC50E081D6B18780059020F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AC50E061D6B18780059020F /* TecdDayApp */,
+				3AC50E1A1D6B18790059020F /* TecdDayAppTests */,
+				3AC50E251D6B18790059020F /* TecdDayAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AC50E051D6B18780059020F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC50E151D6B18780059020F /* LaunchScreen.storyboard in Resources */,
+				3AC50E121D6B18780059020F /* Assets.xcassets in Resources */,
+				3AC50E101D6B18780059020F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC50E191D6B18790059020F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC50E241D6B18790059020F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AC50E031D6B18780059020F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC50E431D6B21D60059020F /* HackathonViewController.swift in Sources */,
+				3AC50E0B1D6B18780059020F /* AppDelegate.swift in Sources */,
+				3AC50E3F1D6B21A90059020F /* StallsViewController.swift in Sources */,
+				3AC50E411D6B21C50059020F /* EventsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC50E171D6B18790059020F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC50E201D6B18790059020F /* TecdDayAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC50E221D6B18790059020F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC50E2B1D6B18790059020F /* TecdDayAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AC50E1D1D6B18790059020F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AC50E061D6B18780059020F /* TecdDayApp */;
+			targetProxy = 3AC50E1C1D6B18790059020F /* PBXContainerItemProxy */;
+		};
+		3AC50E281D6B18790059020F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AC50E061D6B18780059020F /* TecdDayApp */;
+			targetProxy = 3AC50E271D6B18790059020F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AC50E0E1D6B18780059020F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AC50E0F1D6B18780059020F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AC50E131D6B18780059020F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AC50E141D6B18780059020F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AC50E2D1D6B18790059020F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AC50E2E1D6B18790059020F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AC50E301D6B18790059020F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TecdDayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TecdDayApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AC50E311D6B18790059020F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TecdDayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TecdDayApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3AC50E331D6B18790059020F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TecdDayAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TecdDayAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TecdDayApp.app/TecdDayApp";
+			};
+			name = Debug;
+		};
+		3AC50E341D6B18790059020F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TecdDayAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TecdDayAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TecdDayApp.app/TecdDayApp";
+			};
+			name = Release;
+		};
+		3AC50E361D6B18790059020F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TecdDayAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TecdDayAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TecdDayApp;
+			};
+			name = Debug;
+		};
+		3AC50E371D6B18790059020F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TecdDayAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TecdDayAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TecdDayApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AC50E021D6B18780059020F /* Build configuration list for PBXProject "TecdDayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC50E2D1D6B18790059020F /* Debug */,
+				3AC50E2E1D6B18790059020F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC50E2F1D6B18790059020F /* Build configuration list for PBXNativeTarget "TecdDayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC50E301D6B18790059020F /* Debug */,
+				3AC50E311D6B18790059020F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AC50E321D6B18790059020F /* Build configuration list for PBXNativeTarget "TecdDayAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC50E331D6B18790059020F /* Debug */,
+				3AC50E341D6B18790059020F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AC50E351D6B18790059020F /* Build configuration list for PBXNativeTarget "TecdDayAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC50E361D6B18790059020F /* Debug */,
+				3AC50E371D6B18790059020F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AC50DFF1D6B18780059020F /* Project object */;
+}
