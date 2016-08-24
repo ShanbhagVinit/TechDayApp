@@ -15,8 +15,22 @@ class EventsViewController: UIViewController {
 
         self.navigationController?.navigationItem.title = "TESCO";
         // Do any additional setup after loading the view.
+       
+        self.navigationItem.title = "Tecso"
+        
+        var rightButton : UIBarButtonItem = UIBarButtonItem(title: "Menu", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("ButtonTapped"))
+        
+        self.navigationItem.leftBarButtonItem = rightButton
+
     }
 
+    func ButtonTapped()
+    {
+        print("Coming here")
+    }
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

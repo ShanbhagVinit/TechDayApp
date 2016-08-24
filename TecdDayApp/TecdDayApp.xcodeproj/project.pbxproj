@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A0620C71D6CD89C000AE8D8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0620C61D6CD89C000AE8D8 /* MenuViewController.swift */; };
 		3AC50E0B1D6B18780059020F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC50E0A1D6B18780059020F /* AppDelegate.swift */; };
 		3AC50E101D6B18780059020F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC50E0E1D6B18780059020F /* Main.storyboard */; };
 		3AC50E121D6B18780059020F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC50E111D6B18780059020F /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 		3AC50E3F1D6B21A90059020F /* StallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC50E3E1D6B21A90059020F /* StallsViewController.swift */; };
 		3AC50E411D6B21C50059020F /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC50E401D6B21C50059020F /* EventsViewController.swift */; };
 		3AC50E431D6B21D60059020F /* HackathonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC50E421D6B21D60059020F /* HackathonViewController.swift */; };
+		3AC78BD01D6CCD6000D345B9 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AC78BCF1D6CCD6000D345B9 /* MenuView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A0620C61D6CD89C000AE8D8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../../../../tesco/TechDayApp/TecdDayApp/TecdDayApp/MenuViewController.swift; sourceTree = "<group>"; };
 		3AC50E071D6B18780059020F /* TecdDayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TecdDayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC50E0A1D6B18780059020F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AC50E0F1D6B18780059020F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		3AC50E3E1D6B21A90059020F /* StallsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StallsViewController.swift; sourceTree = "<group>"; };
 		3AC50E401D6B21C50059020F /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		3AC50E421D6B21D60059020F /* HackathonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackathonViewController.swift; sourceTree = "<group>"; };
+		3AC78BCF1D6CCD6000D345B9 /* MenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				3AC50E3E1D6B21A90059020F /* StallsViewController.swift */,
 				3AC50E401D6B21C50059020F /* EventsViewController.swift */,
 				3AC50E421D6B21D60059020F /* HackathonViewController.swift */,
+				3AC78BCF1D6CCD6000D345B9 /* MenuView.xib */,
+				3A0620C61D6CD89C000AE8D8 /* MenuViewController.swift */,
 			);
 			path = TecdDayApp;
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AC50E151D6B18780059020F /* LaunchScreen.storyboard in Resources */,
+				3AC78BD01D6CCD6000D345B9 /* MenuView.xib in Resources */,
 				3AC50E121D6B18780059020F /* Assets.xcassets in Resources */,
 				3AC50E101D6B18780059020F /* Main.storyboard in Resources */,
 			);
@@ -263,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AC50E431D6B21D60059020F /* HackathonViewController.swift in Sources */,
+				3A0620C71D6CD89C000AE8D8 /* MenuViewController.swift in Sources */,
 				3AC50E0B1D6B18780059020F /* AppDelegate.swift in Sources */,
 				3AC50E3F1D6B21A90059020F /* StallsViewController.swift in Sources */,
 				3AC50E411D6B21C50059020F /* EventsViewController.swift in Sources */,
@@ -407,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TecdDayApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -419,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tesco Plc (FEY6Z943BR)";
 				INFOPLIST_FILE = TecdDayApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -492,6 +502,7 @@
 				3AC50E311D6B18790059020F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AC50E321D6B18790059020F /* Build configuration list for PBXNativeTarget "TecdDayAppTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +511,7 @@
 				3AC50E341D6B18790059020F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AC50E351D6B18790059020F /* Build configuration list for PBXNativeTarget "TecdDayAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +520,7 @@
 				3AC50E371D6B18790059020F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,33 +1,22 @@
 //
-//  HackathonViewController.swift
+//  MenuViewController.swift
 //  TecdDayApp
 //
-//  Created by Tesco on 8/22/16.
+//  Created by Tesco on 8/24/16.
 //  Copyright © 2016 Tecso. All rights reserved.
 //
 
 import UIKit
 
-class HackathonViewController: UIViewController {
+class MenuViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //self.view.frame = CGRect(x: 0, y:44,  width: 276, height: self.view.frame.height)
         // Do any additional setup after loading the view.
-        
-        //self.title = "Tecso"
-        self.navigationItem.title = "Tesco"
-        var rightButton : UIBarButtonItem = UIBarButtonItem(title: "Menu", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("ButtonTapped"))
-        
-        self.navigationItem.leftBarButtonItem = rightButton
+    }
 
-    }
-    
-    func ButtonTapped()
-    {
-        print("Coming here")
-    }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

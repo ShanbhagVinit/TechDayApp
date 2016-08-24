@@ -16,10 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-//        var tabBarController = self.window!.rootViewController as! UITabBarController
-//        var navigationController = tabBarController.viewControllers?.first as! UINavigationController
+         //var tabBarController = self.window!.rootViewController as! UITabBarController
+        // var navigationController = tabBarController.viewControllers?.first as! UINavigationController
 //    
 //        navigationController.navigationItem.title = "TESCO"
+        
+//        navigationController.title = "Tesco"
+//        
+//        var rightButton : UIBarButtonItem = UIBarButtonItem(title: "Menu", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("ButtonTapped"))
+//        
+//        navigationController.navigationItem.leftBarButtonItem = rightButton
+
         
         
         return true
